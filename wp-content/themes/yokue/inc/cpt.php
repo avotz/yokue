@@ -50,7 +50,7 @@ function yokue_register_meta_boxes( $meta_boxes )
                 'name'  => 'Categoria (Estrellas)',
                 'id'    => $prefix . 'stars',
                 'type'  => 'number',
-                'min'   => 1,
+                'min'   => 3,
                 'std'   => '',
                 'class' => 'stars'
                
