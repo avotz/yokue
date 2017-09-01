@@ -22,8 +22,10 @@
 			<?php endif; 	?>
 	</div>
 	<header class="entry-header">
-		<h1 class="entry-title"> <?php the_title(); ?> <small><?php echo str_repeat("<i class='icon-star'></i>", rwmb_meta('rw_stars'));?></small> </h1>
-		
+		<h1 class="entry-title"> <?php the_title(); ?> 
+		<?php if(rwmb_meta('rw_stars')) : ?>
+			<small><?php echo str_repeat("<i class='icon-star'></i>", rwmb_meta('rw_stars'));?></small> </h1>
+		<?php endif; 	?>
 	</header><!-- .entry-header -->
 	
 	<div class="entry-content">
