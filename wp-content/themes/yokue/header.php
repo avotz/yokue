@@ -32,8 +32,8 @@
         
         <a href="#" class="btn btn-register">Registrate Ahora!</a>
         <div class="header-phones">
-            <span>(506)8703-1404</span>
-            <span>(506)2439-1381</span>
+            <span>(506)4700-8420</span>
+            <span>(506)2506-3803</span>
             
         </div>
         <button id="btn-menu" class="header-btn-menu">
