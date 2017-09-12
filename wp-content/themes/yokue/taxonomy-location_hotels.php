@@ -41,7 +41,9 @@ get_header(); ?>
 								</figure>
 								<div class="main-hotels-item-info">
 									<div class="main-hotels-item-stars">
-										<?php echo str_repeat("<i class='icon-star'></i>", rwmb_meta('rw_stars'));?>
+										<?php if(rwmb_meta('rw_stars')) : ?>
+											<?php echo str_repeat("<i class='icon-star'></i>", rwmb_meta('rw_stars'));?>
+										<?php endif; 	?>
 									</div>
 									<div class="main-hotels-item-description">
 										Cantón de <?php echo rwmb_meta( 'rw_canton'); ?>, Distríto de <?php echo rwmb_meta( 'rw_distrito'); ?>
